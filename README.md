@@ -7,5 +7,5 @@
 <li>Configure the Deployment Settings : Choose your Git provider (GitHub, GitLab, etc) and select repository you forked earlier.</li>
 <li>Deploy the Website: Click the "Deploy site" button in Netlify to start the deployment process. Netlify will build and deploy your website automatically. </li>
 <li>Access the Deployed Website: Once the deployment is complete, Netlify will provide you with a unique URL for your deployed website. You can access your website by visiting this URL.</li>
+</ol>
 
-<a href="https://assignment-week3-hilmi.netlify.app/#">This is my link</a>
