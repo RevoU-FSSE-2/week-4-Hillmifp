@@ -17,3 +17,13 @@
 <li>Deploy the Website: Click the "Deploy site" button in Netlify to start the deployment process. Netlify will build and deploy your website automatically. </li>
 <li>Access the Deployed Website: Once the deployment is complete, Netlify will provide you with a unique URL for your deployed website. You can access your website by visiting this URL.</li>
 </ol>
+
+<h1>Buying a .site Domain at Niagahoster 2️⃣</h1>
+<ol>
+  <img src="img/ss%20(9).png">
+<li>Visit the Niagahoster Website: Open a web browser and go to the Niagahoster website at https://www.niagahoster.co.id/.</li>
+<li>Create a New Site : once you have Netlify account, log in and create a new site by clicking on the "New site from Git" button </li>
+<li>Configure the Deployment Settings : Choose your Git provider (GitHub, GitLab, etc) and select repository you forked earlier.</li>
+<li>Deploy the Website: Click the "Deploy site" button in Netlify to start the deployment process. Netlify will build and deploy your website automatically. </li>
+<li>Access the Deployed Website: Once the deployment is complete, Netlify will provide you with a unique URL for your deployed website. You can access your website by visiting this URL.</li>
+</ol>
