@@ -8,7 +8,7 @@
 </ol>
 
 
-<h1>Create Netlify Account 1️⃣</h1>
+<h1>Create Netlify Account and Deployment Project from GitHub 1️⃣</h1>
 <ol>
 <img src="img/ss%20(1).png">
 <li>Creat a netlify account : if you don't hace a Netlify account, go to <a href="https://www.netlify.com/"> and sign up for a new account.</li>
