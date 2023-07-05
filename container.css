@@ -1,0 +1,32 @@
+.container {
+  text-align: justify;
+  line-height: 1.6;
+  top: 15px;
+  padding: 80px 80px;
+}
+
+.container h2 {
+  font-size: 2rem;
+  line-height: 1.6;
+  padding: 0;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.images img {
+  height: 375px;
+  width: 375px;
+  margin: 10px;
+  border: 1px #cccccc solid;
+}
+
+figcaption {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 10px;
+}

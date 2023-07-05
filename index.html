@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hilmi Fauzi - Student RevoU Software Engineer</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="" class="nav-branding">HILMI FAUZI</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Hilmi Fauzi</h1>
+        <h3>Student RevoU - Software Engineer</h3>
+        <a href="#">Find out more</a>
+      </section>
+
+      <section class="about">
+        <h2>About Me</h2>
+        <picture>
+          <source media="(min-width:650px)" srcset="img/profile-img.jpg" />
+          <img src="img/profile-img2.jpg" id="profileimg" alt="photo profile" />
+        </picture>
+        <p>Hi everyone!👋 I'm Hilmi. Nice to meet you!</p>
+        <p>
+          I'm freshly graduated from Pamulang University with majority in
+          Informatics Engineering. I have experience for 6 years as a Staff
+          Administration at Dharma Wanita Persatuan Ministry of Foreign Affairs
+          of the Republic of Indonesia. I have a great interest in Photography,
+          Informatics Technology like programming, UI/UX Design. Now, i'm in
+          intensive class at RevoU with majority Software Engineering.
+        </p>
+        <p>I hope in the future i will be Fullstack Developer</p>
+      </section>
+
+      <section id="gallery-photo">
+        <h2>This is my gallery</h2>
+        <div class="grid-container">
+          <div class="item" id="satu"></div>
+          <div class="item" id="dua"></div>
+          <div class="item" id="tiga"></div>
+          <div class="item" id="empat"></div>
+          <div class="item" id="lima"></div>
+      </section>
+
+      <section class="video">
+        <h2>This is my video</h2>
+        <div class="flex-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0DEv7A0gS8c"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Join Membership</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data</legend>
+            <div class="div-name">
+              <label for="fullName">Full Name</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div class="div-email">
+              <label for="email">Email:</label>
+              <input id=":email" type="email" required />
+            </div>
+
+            <div class="div-birthday">
+              <p>When your birthday?</p>
+              <label for="birthday"></label>
+              <input type="date" id="birthday" name="birthday" />
+            </div>
+
+            <div class="div-live">
+              <p>Are u living in Indonesia?</p>
+              <input type="radio" id="yes" name="isIndonesia" value="Male" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="isIndonesia" value="Female" />
+              <label for="no">No</label>
+            </div>
+
+            <div class="div-tellus">
+              <p>Tell us why you wanna join membership!</p>
+              <textarea rows="3"></textarea>
+            </div>
+
+            <div class="div-upload">
+              <p>Upload your favorite photo</p>
+              <input
+                type="file"
+                id="photo"
+                name="myPhoto"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
