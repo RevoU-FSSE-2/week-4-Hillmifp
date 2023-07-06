@@ -1,13 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR)
 
-<h1>Prerequisites 🧾</h1> 
-<p>Before you begin, make sure you have the following:</p>
-<ol>
-  <li>A GitHub account with your project repository</li>
-  <li>A Netlify account (if you don't have one, sign up at https://www.netlify.com/)</li>
-</ol>
-
-
 <h1>Create Netlify Account and Deployment Project from GitHub 1️⃣</h1>
 <ol>
 <img src="img/ss%20(1).png">
