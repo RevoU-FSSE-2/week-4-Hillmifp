@@ -32,3 +32,21 @@
 <li>Make the Payment: Follow the instructions to make the payment using your chosen payment method. Provide the necessary details and confirm the payment.</li>
 <li>Domain Registration and Activation: After a successful payment, Niagahoster will initiate the domain registration process. This may take a few minutes to a couple of hours. Once the domain is registered and activated, you will receive a confirmation email with the details and next steps.</li>
 </ol>
+
+<h1>Steps to Connect Niagahoster Domain to Cloudflare and Configure DNS for Netlify Deployment 3️⃣</h1>
+<ol>
+<li>Sign in to Cloudflare: Visit https://www.cloudflare.com/ and sign in to your Cloudflare account.</li>
+<li>Add a Site: After signing in, click on the "Add a Site" button in the Cloudflare dashboard. Enter your domain name and follow the instructions to add your domain to Cloudflare.</li>
+<li>Change Nameservers: Once your domain is added to Cloudflare, Cloudflare will provide you with two nameservers. Copy the nameserver values provided by Cloudflare.</li>
+<li>Log in to Niagahoster: Go to the Niagahoster website (https://www.niagahoster.co.id/) and log in to your account. Change Nameservers in the domain management settings, update the nameservers with the ones provided by Cloudflare. Save the changes.</li>
+<li>Wait for Nameserver Propagation: It may take some time for the nameserver changes to propagate. This process typically takes a few minutes to a few hours. Be patient and wait for the changes to take effect. Return to Cloudflare once the nameserver changes have propagated, return to the Cloudflare dashboard.</li>
+<li>Set Up DNS Records: After verifying the domain setup, navigate to the "DNS" tab in the Cloudflare dashboard. Here, you will add the necessary DNS records to connect your domain to the Netlify deployment.</li>
+<li>Add CNAME Record: Create a CNAME record with the following settings:
+
+Name: Enter the desired subdomain or leave it blank for the root domain.
+Target/Value: Enter the Netlify subdomain for your deployment (e.g., your-netlify-subdomain.netlify.app).
+TTL: Select "Automatic" or set a suitable TTL value.
+Proxy Status: Enable the orange cloud to proxy the traffic through Cloudflare.</li>
+<li>Save DNS Records: Save the DNS records you added in Cloudflare and Verify DNS Propagation: Wait for DNS</li>
+</ol>
+
