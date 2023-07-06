@@ -42,11 +42,10 @@
 <li>Wait for Nameserver Propagation: It may take some time for the nameserver changes to propagate. This process typically takes a few minutes to a few hours. Be patient and wait for the changes to take effect. Return to Cloudflare once the nameserver changes have propagated, return to the Cloudflare dashboard.</li>
 <li>Set Up DNS Records: After verifying the domain setup, navigate to the "DNS" tab in the Cloudflare dashboard. Here, you will add the necessary DNS records to connect your domain to the Netlify deployment.</li>
 <li>Add CNAME Record: Create a CNAME record with the following settings:
-
-Name: Enter the desired subdomain or leave it blank for the root domain.
-Target/Value: Enter the Netlify subdomain for your deployment (e.g., your-netlify-subdomain.netlify.app).
-TTL: Select "Automatic" or set a suitable TTL value.
-Proxy Status: Enable the orange cloud to proxy the traffic through Cloudflare.</li>
+<br>Name: Enter the desired subdomain or leave it blank for the root domain.
+<br>Target/Value: Enter the Netlify subdomain for your deployment (e.g., your-netlify-subdomain.netlify.app).
+<br>TTL: Select "Automatic" or set a suitable TTL value.
+<br>Proxy Status: Enable the orange cloud to proxy the traffic through Cloudflare.</li>
 <li>Save DNS Records: Save the DNS records you added in Cloudflare and Verify DNS Propagation: Wait for DNS</li>
 </ol>
 
